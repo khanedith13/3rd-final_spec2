@@ -10,3 +10,8 @@ Jak N Poy is a simple and interactive web-based version of the classic Rock, Pap
 //game features
 🎮 Features
 
+//user input
+👤 User Input
+Players can select:
+Rock ✊ | Paper ✋ | Scissors ✌️
+Input is handled through buttons or interactive controls.
