@@ -7,9 +7,7 @@ allowing users to enjoy the game across different devices through html, bootstra
 
 🎮 Features
 
-
-
-👤 User Input
+*👤 User Input
 Players can select:
 
 Rock ✊ | Paper ✋ | Scissors ✌️
