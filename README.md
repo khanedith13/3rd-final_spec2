@@ -8,9 +8,9 @@ allowing users to enjoy the game across different devices through html, bootstra
 🎮 Features
 
 *👤 User Input
-Players can select:
+    Players can select:
 
-Rock ✊ | Paper ✋ | Scissors ✌️
+        Rock ✊ | Paper ✋ | Scissors ✌️
 Input is handled through buttons or interactive controls.
 
 
