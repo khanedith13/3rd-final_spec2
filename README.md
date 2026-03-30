@@ -41,3 +41,11 @@ Displays scores in real-time.
 🎨 User-Friendly UI
 Clean and intuitive design
 Easy to understand and navigate
+
+//responsive
+📱 Responsive Design
+Fully responsive layout
+Works smoothly on:
+Desktop 💻
+Tablet 📱
+Mobile 📲
