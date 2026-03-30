@@ -68,4 +68,4 @@ Clone the Repository:
 
     Developed by Delfin G. Octobre / Khan Edith | CodeX
 
-git profile: https://github.com/khanedith13
+GitHUb Profile: https://github.com/khanedith13
