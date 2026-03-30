@@ -36,3 +36,8 @@ Wins
 Losses
 Ties
 Displays scores in real-time.
+
+//ui
+🎨 User-Friendly UI
+Clean and intuitive design
+Easy to understand and navigate
