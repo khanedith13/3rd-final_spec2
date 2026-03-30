@@ -8,15 +8,18 @@ allowing users to enjoy the game across different devices through html, bootstra
 🎮 Features
 
 
+
 👤 User Input
 Players can select:
 
 Rock ✊ | Paper ✋ | Scissors ✌️
 Input is handled through buttons or interactive controls.
 
+
 🤖 Computer Choice
 
 The system generates a random choice for the computer each round.
+
 
 🏆 Result Display
 
@@ -24,6 +27,7 @@ Clearly shows the result after each round:
 Win ✅
 Loss ❌
 Tie 🤝
+
 
 📊 Score Tracking
 Keeps track of:
@@ -33,10 +37,12 @@ Losses
 Ties
 Displays scores in real-time.
 
+
 🎨 User-Friendly UI
 
 Clean and intuitive design
 Easy to understand and navigate
+
 
 📱 Responsive Design
 
@@ -48,6 +54,7 @@ Tablet 📱
 Mobile 📲
 
 
+
 Clone the Repository:
 
 git clone https://github.com/khanedith13/delfinoctobre-rock-paper-scissors
@@ -55,9 +62,7 @@ git clone https://github.com/khanedith13/delfinoctobre-rock-paper-scissors
 
 🛠️ Built With
 
-HTML with Bootstrap Framework
-CSS
-JavaScript
+HTML with Bootstrap Framework, CSS, JavaScript
 
 
 👨‍💻 Author
