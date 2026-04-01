@@ -15,25 +15,27 @@
 
         <div>
             <div>
-                <p>Computer Score: <span>0</span></p>
-                <p>Your Score: <span>0</span></p>
+                <p>Computer Score: <span id="computer-score">0</span></p>
+                <p>Your Score: <span id="user-score">0</span></p>
             </div>
 
             <div>
-                <p></p>
+                <p id="computer_choice"></p>
                 <p>VS</p>
-                <p></p>
+                <p id="user_choice"></p>
             </div>   
             
             <div>
-                <button>👊</button>
-                <button>🫱</button>
-                <button>✌️</button>
+                <button onclick="play('rock')">👊</button>
+                <button onclick="play('paper')">🫱</button>
+                <button onclick="play('scissor')">✌️</button>
             </div>
 
+            <div id="result"></div>
+
             <div>
-                <p>Game: <span>1</span></p>
-                <button>Reset Game</button>
+                <p>Game: <span id="game-number">1</span></p>
+                <button id="reset-game">Reset Game</button>
             </div>
         </div>
     </div>
