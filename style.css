@@ -126,4 +126,8 @@ body {
     .vs-text {
         font-size: 18px;
     }
+
+    .game-logo {
+        max-width: 150px;
+    }
 }
