@@ -50,3 +50,9 @@ body {
 .choice-btn:hover {
     transform: scale(1.1);
 }
+
+.result {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
