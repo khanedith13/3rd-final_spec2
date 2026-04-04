@@ -80,3 +80,21 @@ function play(userChoice) {
     gameNumber++;
     document.getElementById("game-number").textContent = gameNumber;
 }
+
+function resetGame() {
+    userScore = 0;
+    computerScore = 0;
+    gameNumber = 1;
+
+    userHistory = { rock: 0, paper: 0, scissor: 0 };
+
+    document.getElementById("user-score").textContent = 0;
+    document.getElementById("computer-score").textContent = 0;
+    document.getElementById("game-number").textContent = 1;
+
+    document.getElementById("result").textContent = "Game Reset!";
+    document.getElementById("result").classList.remove("bounce", "shake");
+
+    document.getElementById("user_choice").textContent = "❔";
+    document.getElementById("computer_choice").textContent = "❔";
+}
