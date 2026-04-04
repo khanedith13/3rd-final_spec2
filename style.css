@@ -96,3 +96,24 @@ body {
 .reset-btn:hover {
     transform: scale(1.05);
 }
+
+@media (max-width: 576px) {
+    .game-card {
+        padding: 20px 15px;
+        max-width: 95%;
+    }
+
+    .computer_choice,
+    .user_choice {
+        font-size: 70px;
+    }
+
+    .choice-btn {
+        font-size: 24px;
+        margin: 5px;
+    }
+
+    .vs-text {
+        font-size: 18px;
+    }
+}
