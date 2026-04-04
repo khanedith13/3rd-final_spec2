@@ -29,3 +29,54 @@ function getComputerChoice(userChoice) {
     return choices[Math.floor(Math.random() * 3)];
 }
 
+function play(userChoice) {
+    userHistory[userChoice]++;
+
+    const computerChoice = getComputerChoice();
+
+    const resultDiv = document.getElementById("result");
+    const userEl = document.getElementById("user_choice");
+    const compEl = document.getElementById("computer_choice");
+
+    userEl.textContent = emoji(userChoice);
+    compEl.textContent = emoji(computerChoice);
+
+    // animation reset
+    userEl.classList.remove("choice-animate");
+    compEl.classList.remove("choice-animate");
+    void userEl.offsetWidth;
+
+    userEl.classList.add("choice-animate");
+    compEl.classList.add("choice-animate");
+
+    resultDiv.classList.remove("bounce", "shake");
+
+    let resultText = "";
+
+    if (userChoice === computerChoice) {
+        resultText = "🤝 It's a Tie!";
+        resultDiv.classList.add("bounce");
+    }
+    else if (
+        (userChoice === "rock" && computerChoice === "scissor") ||
+        (userChoice === "paper" && computerChoice === "rock") ||
+        (userChoice === "scissor" && computerChoice === "paper")
+    ) {
+        resultText = "✅ You Win!";
+        userScore++;
+        resultDiv.classList.add("bounce");
+    }
+    else {
+        resultText = "❌ You Lose!";
+        computerScore++;
+        resultDiv.classList.add("shake");
+    }
+
+    resultDiv.textContent = resultText;
+
+    document.getElementById("user-score").textContent = userScore;
+    document.getElementById("computer-score").textContent = computerScore;
+
+    gameNumber++;
+    document.getElementById("game-number").textContent = gameNumber;
+}
