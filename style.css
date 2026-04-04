@@ -16,7 +16,7 @@ body {
 }
 
 .game-logo {
-    max-width: 200px;
+    max-width: 20px;
     height: auto;
     transition: transform 0.3s ease;
 }
